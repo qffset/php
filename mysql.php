@@ -21,7 +21,7 @@ $text = trim($_REQUEST['text']);
 $insert_sql = "INSERT INTO outbox (number, text)" .
 "VALUES('{$name}', '{$text}');";
 mysql_query($insert_sql);
-//$insert into outbox (number,text) values ('+79034405100','Проверка Proverka');
+//$insert into outbox (number,text) values ('+7900000000000','Проверка Proverka');
 
 
 
